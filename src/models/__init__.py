@@ -13,6 +13,9 @@ from .linear_regression import LinearRegressionModel
 from .logistic_regression import LogisticRegressionModel
 from .knn import KNNModel
 
+# Uduma's Models
+from .random_forest import RandomForestModel
+
 __all__ = [
     # Verah's Models
     'DecisionTreeModel',
@@ -21,5 +24,7 @@ __all__ = [
     # Sandra's Models
     'LinearRegressionModel',
     'LogisticRegressionModel',
-    'KNNModel'
+    'KNNModel',
+    # Uduma's Models
+    'RandomForestModel'
 ]
