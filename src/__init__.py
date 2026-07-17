@@ -1,14 +1,22 @@
 """
-Models Package
-Contains all machine learning model implementations.
+Source package for ML Collaborative Project
 """
 
-from .decision_tree import DecisionTreeModel
-from .kmeans import KMeansModel
-from .svm import SVMModel
+# Import all models from the models package
+from .models import (
+    DecisionTreeModel,
+    KMeansModel,
+    SVMModel,
+    LinearRegressionModel,
+    LogisticRegressionModel,
+    KNNModel
+)
 
 __all__ = [
     'DecisionTreeModel',
     'KMeansModel',
-    'SVMModel'
+    'SVMModel',
+    'LinearRegressionModel',
+    'LogisticRegressionModel',
+    'KNNModel'
 ]
