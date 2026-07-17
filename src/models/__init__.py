@@ -7,6 +7,8 @@ Contains all machine learning model implementations.
 from .decision_tree import DecisionTreeModel
 from .kmeans import KMeansModel
 from .svm import SVMModel
+from .hierarchical_clustering import HierarchicalClusteringModel
+from .pca import PCAModel
 
 # Sandra's Models
 from .linear_regression import LinearRegressionModel
@@ -21,6 +23,8 @@ __all__ = [
     'DecisionTreeModel',
     'KMeansModel',
     'SVMModel',
+    'HierarchicalClusteringModel',
+    'PCAModel',
     # Sandra's Models
     'LinearRegressionModel',
     'LogisticRegressionModel',
